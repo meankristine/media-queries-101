@@ -59,6 +59,10 @@ footer {
 /* Change the background colors below */
 
 @media (min-width: 768px) {
+  .col-3 {
+    width: 50%;
+  }
+
   header {
     background-color: cornflowerblue;
   }
@@ -73,17 +77,20 @@ footer {
 
   #column-3 {
     background-color: chartreuse;
+    width: 100%;
   }
 
   footer {
     background-color: crimson;
   }
-  
-}
 
+}
 
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
+  .col-3 {
+    width: 33.333%;
+  }
   header {
     background-color: maroon;
   }
